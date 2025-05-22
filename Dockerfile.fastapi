@@ -1,0 +1,4 @@
+FROM mcp-second-brain
+COPY data ./data
+RUN python index.py ./data
+# RUN rm -r ./data # optional
