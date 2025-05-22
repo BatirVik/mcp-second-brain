@@ -15,7 +15,7 @@ Easy shareable knowledge base.
 2. **Create Dockerfile:**
 
 ```Dockerfile
-FROM mcp-second-brain
+FROM ghcr.io/batirvik/mcp-second-brain:latest
 # ENV CHUNK_SIZE = 50_000 # env pass this way  
 COPY data ./data
 RUN python index.py ./data
